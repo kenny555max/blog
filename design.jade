@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+
+        link(rel="stylesheet", href="bootstrap/css/bootstrap.min.css")
+        link(rel="stylesheet", href="aos-master/dist/aos.css")
+        link(rel="stylesheet", href="fontawesome-free-5.13.0-web/css/all.min.css")
+        link(rel="stylesheet", href="css/main.css")
+        
+        script(src="jquery/jquery.min.js")
+        script(src="bootstrap/js/bootstrap.min.js")
+        script(src="aos-master/dist/aos.js")
+        script(src="js/main.js")
+    body
+
+        .banner
+            .banner-img.set-bg(data-setbg="imgs/banner1.jpg")
+                nav.navbar.navbar-expand-lg.navbar-dark
+                    .navbar-brand
+                        a.text-decoration-none(href="index.html") LUXIES
+                    button.navbar-toggler(data-target='#my-nav', data-toggle='collapse', aria-controls='my-nav', aria-expanded='false', aria-label='Toggle navigation')
+                        span.navbar-toggler-icon
+                    .collapse.navbar-collapse#my-nav
+                        ul.navbar-nav.ml-auto
+                            li.nav-item.active
+                                a.nav-link(href='about.html')
+                                    Item ABOUT
+                                    span.sr-only (current)
+                            li.nav-item
+                                a.nav-link(href='design.html')
+                                    Item DESIGNS
+                            a(href="")
+                                button(type="submit") SUBSCRIBE
+
+                .container
+                    h1 LUXIES INFINITE IDEAS
+                    h6 LOGISTIC DESIGNS
+                    span
+
+        .All
+            .header.d-flex.flex-column.justify-content-center.align-items-center
+                h1 LUXIES ENTERPRISE
+                p The Power Of Development
+            .container
+                .first
+                    .row
+                        .fst-img.col-lg-6(data-aos="fade-down")
+                            img(src="imgs/banner1.jpg", alt="")
+                        .fst-text.col-md-6(data-aos="fade-up")
+                            p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo facilis eos labore possimus minus iure, aperiam ex vel reprehenderit corrupti, non fugiat soluta ipsa omnis impedit a quidem corporis quod.
+                            p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo facilis eos labore possimus minus iure, aperiam ex vel reprehenderit corrupti, non fugiat soluta ipsa omnis impedit a quidem corporis quod.
+                .first
+                    .row
+                        .fst-img.col-lg-6(data-aos="fade-right")
+                            img(src="imgs/banner2.jpg", alt="")
+                        .fst-text.col-lg-6(data-aos="fade-right")
+                            p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam mollitia commodi recusandae consequuntur nisi repellendus repudiandae praesentium nihil quod alias ea obcaecati quaerat earum est impedit, molestiae dolor, voluptate beatae?
+                            p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo facilis eos labore possimus minus iure, aperiam ex vel reprehenderit corrupti, non fugiat soluta ipsa omnis impedit a quidem corporis quod.
+                            
+                .first
+                    .row
+                        .fst-img.col-lg-6(data-aos="zoom-in")
+                            img(src="imgs/banner1.jpg", alt="")
+                        .fst-text.col-lg-6(data-aos="zoom-out")
+                            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et ea, dolores nostrum illum dolor consectetur a ducimus quibusdam. Voluptatibus, veritatis eaque tempore labore autem neque illo consectetur necessitatibus illum numquam.
+                            p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo facilis eos labore possimus minus iure, aperiam ex vel reprehenderit corrupti, non fugiat soluta ipsa omnis impedit a quidem corporis quod.
+                            
+                .first
+                    .row
+                        .fst-img.col-lg-6(data-aos="flip-right")
+                            img(src="imgs/banner2.jpg", alt="")
+                        .fst-text.col-lg-6(data-aos="flip-left")
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima alias veritatis, consectetur error numquam quasi, illo veniam deserunt porro sequi accusamus est? Obcaecati atque totam suscipit deleniti aspernatur alias hic!
+                            p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo facilis eos labore possimus minus iure, aperiam ex vel reprehenderit corrupti, non fugiat soluta ipsa omnis impedit a quidem corporis quod.
+                            
+                .first
+                    .row
+                        .fst-img.col-lg-6(data-aos="slide-down")
+                            img(src="imgs/banner1.jpg", alt="")
+                        .fst-text.col-lg-6(data-aos="slide-up")
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nulla illo id, voluptatem officia sint ipsa ducimus totam inventore non aspernatur rem deserunt voluptates nemo assumenda quas mollitia cum veritatis.
+                            p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo facilis eos labore possimus minus iure, aperiam ex vel reprehenderit corrupti, non fugiat soluta ipsa omnis impedit a quidem corporis quod.
+            
+        .footer
+            .social
+                a(href="https://www.linkedin.com")
+                    i.fab.fa-linkedin(aria-hidden='true')
+                a(href="https://www.twitter.com").ml-4
+                    i.fab.fa-twitter(aria-hidden='true')
+                a(href="https://www.facebook.com").ml-4
+                    i.fab.fa-facebook-f(aria-hidden='true')
+                a(href="https://www.pinterest.com").ml-4
+                    i.fab.fa-pinterest-p(aria-hidden='true')
+            .text    
+                a(href="about.html") ABOUT
+                a(href="design.html").ml-4 DESIGNS
+                a(href="").ml-4
+                    button(type="submit") SUBSCRIBE

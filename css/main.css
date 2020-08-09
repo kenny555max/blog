@@ -1,0 +1,214 @@
+.content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: pink;
+}
+.content .container .text-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+.content .container .text-sec span {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+.content .container .card {
+  padding: 0 0 !important;
+  margin-right: 20px;
+}
+.content .container .card .card-body {
+  height: 500px;
+}
+.content .container .card .card-body img {
+  width: 100%;
+  height: 250px;
+}
+.content .container .card .card-body .text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content .container .card .card-body .text span {
+  margin-bottom: 40px;
+  height: 5px;
+  width: 50px;
+  background-color: pink;
+}
+.content .content-sec {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: floralwhite;
+}
+.content .content-sec .fst {
+  height: 400px;
+  width: 100%;
+}
+.content .content-sec .sec {
+  display: flex;
+  padding: 20px 20px;
+  text-align: center;
+}
+.content .content-sec .sec p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .content-third {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  line-height: 1;
+}
+.content .content-third input {
+  padding: 15px 20px;
+  width: 400px;
+}
+.content .content-third button {
+  background-color: transparent;
+  color: black;
+  width: 150px;
+  height: 60px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.about .about-img {
+  height: 500px;
+  width: 100%;
+}
+
+.All {
+  background-color: pink;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.All .container .first {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+  .content-sec {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  align-items: center;
+  padding: 0 50px;
+}
+.footer .social a i {
+  background-color: floralwhite;
+  padding: 10px 10px;
+  border-radius: 50%;
+  color: black;
+}
+.footer .text a {
+  color: floralwhite;
+  font-size: 0.8em;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+.footer .text a button {
+  color: floralwhite;
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    flex-direction: column;
+    padding: 40px 0;
+  }
+  .footer .social a {
+    font-size: 30px;
+  }
+  .footer .text a {
+    font-size: 20px;
+  }
+}
+body {
+  background-color: floralwhite;
+}
+
+nav {
+  height: 60px;
+  margin: 20px 20px;
+  padding: 0 30px !important;
+}
+nav a {
+  color: black !important;
+  font-weight: bolder;
+  font-size: 1em;
+  font-family: "Times New Roman", Times, serif;
+}
+nav span {
+  background-color: black !important;
+}
+nav button {
+  background-color: transparent;
+  padding: 0 30px;
+  color: black;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.banner .banner-img {
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border: 20px solid floralwhite;
+}
+.banner .banner-img .container {
+  margin-top: 100px;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner .banner-img .container h1 {
+  font-size: 4em;
+}
+.banner .banner-img .container h6 {
+  font-size: 2em;
+}
+.banner .banner-img .container span {
+  background-color: floralwhite;
+  height: 10px;
+  width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .banner .banner-img .container h1 {
+    font-size: 2.8em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner .banner-img .container h1 {
+    font-size: 2.2em;
+  }
+}

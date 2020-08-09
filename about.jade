@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+
+        link(rel="stylesheet", href="bootstrap/css/bootstrap.min.css")
+        link(rel="stylesheet", href="fontawesome-free-5.13.0-web/css/all.min.css")
+        link(rel="stylesheet", href="css/main.css")
+
+        script(src="jquery/jquery.min.js")
+        script(src="bootstrap/js/bootstrap.min.js")
+        script(src="js/main.js")
+    body
+
+        .banner
+            .banner-img.set-bg(data-setbg="imgs/banner1.jpg")
+                nav.navbar.navbar-expand-lg.navbar-dark
+                    .navbar-brand
+                        a.text-decoration-none(href="index.html") LUXIES
+                    button.navbar-toggler(data-target='#my-nav', data-toggle='collapse', aria-controls='my-nav', aria-expanded='false', aria-label='Toggle navigation')
+                        span.navbar-toggler-icon
+                    .collapse.navbar-collapse#my-nav
+                        ul.navbar-nav.ml-auto
+                            li.nav-item.active
+                                a.nav-link(href='about.html')
+                                    Item ABOUT
+                                    span.sr-only (current)
+                            li.nav-item
+                                a.nav-link(href='design.html')
+                                    Item DESIGNS
+                            a(href="")
+                                button(type="submit") SUBSCRIBE
+
+                .container
+                    h1 LUXIES INFINITE IDEAS
+                    h6 LOGISTIC DESIGNS
+                    span
+
+        
+        .content
+            h1.d-flex.justify-content-center ABOUT US
+            .content-sec
+                .fst.set-bg(data-setbg="imgs/banner2.jpg")
+                .sec
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sapiente dolor illo veniam dolorum repellat assumenda sit consequatur nostrum vel consectetur soluta rem. Corrupti fugiat soluta obcaecati, quasi quisquam nihil! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea culpa distinctio dolorum quae similique id, provident tempore quam nisi animi, omnis consequatur assumenda. Quisquam fuga obcaecati ab repellat quia fugiat!
+                    
+
+        .footer
+            .social
+                a(href="https://www.linkedin.com")
+                    i.fab.fa-linkedin(aria-hidden='true')
+                a(href="https://www.twitter.com").ml-4
+                    i.fab.fa-twitter(aria-hidden='true')
+                a(href="https://www.facebook.com").ml-4
+                    i.fab.fa-facebook-f(aria-hidden='true')
+                a(href="https://www.pinterest.com").ml-4
+                    i.fab.fa-pinterest-p(aria-hidden='true')
+            .text    
+                a(href="about.html") ABOUT
+                a(href="design.html").ml-4 DESIGNS
+                a(href="").ml-4
+                    button(type="submit") SUBSCRIBE
