@@ -82,7 +82,8 @@
   background-color: transparent;
   color: black;
   width: 150px;
-  height: 60px;
+  height: 50px;
+  border: 2px solid black;
 }
 
 .about {
@@ -107,6 +108,13 @@
   .content-sec {
     display: flex !important;
     flex-direction: column !important;
+  }
+
+  .content-third {
+    text-align: center;
+  }
+  .content-third button {
+    margin-top: 20px;
   }
 }
 .footer {
