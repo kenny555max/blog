@@ -105,16 +105,19 @@
 }
 
 @media screen and (max-width: 500px) {
+  .banner .banner-img h1 {
+    font-size: 1.5em !important;
+  }
+  .banner .banner-img h6 {
+    font-size: 1em !important;
+  }
   .content-sec {
     display: flex !important;
     flex-direction: column !important;
   }
 
-  .content-third {
-    text-align: center;
-  }
-  .content-third button {
-    margin-top: 20px;
+  .content-third form input {
+    width: 200px !important;
   }
 }
 .footer {
